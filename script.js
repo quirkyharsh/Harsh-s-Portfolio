@@ -166,6 +166,13 @@ function initResumeDownload() {
 
 
 // Start when DOM is loaded - SINGLE ENTRY POINT
+function init() {
+  initMobileMenu();
+  initSmoothScroll();
+  initContactForm();
+  initResumeDownload();
+}
+
 document.addEventListener('DOMContentLoaded', init);
 
 // Handle page load

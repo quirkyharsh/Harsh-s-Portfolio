@@ -1,0 +1,23 @@
+{
+  "name": "harsh-s-portfolio",
+  "version": "1.0.0",
+  "description": "A clean and responsive personal portfolio website showcasing my projects, skills, resume, and contact details — built using modern web technologies.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quirkyharsh/Harsh-s-Portfolio.git"
+  },
+  "author": "harsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quirkyharsh/Harsh-s-Portfolio/issues"
+  },
+  "homepage": "https://github.com/quirkyharsh/Harsh-s-Portfolio#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -56,7 +56,7 @@ function initResumeDownload() {
             e.preventDefault();
 
             const link = document.createElement('a');
-            link.href = 'https://drive.google.com/uc?export=download&id=1z1DLBN0A7KcplRYIskdywiu2uV6jBxKo';
+            link.href = 'https://drive.google.com/uc?export=download&id=1lnPTIIjFvkRS1ZigEkVv7eDXWRuttBtu';
             link.download = 'Harsh_Patil_Resume.pdf';
 
             document.body.appendChild(link);
@@ -67,6 +67,9 @@ function initResumeDownload() {
         console.error('Error initializing resume download:', error);
     }
 }
+
+document.addEventListener('DOMContentLoaded', initResumeDownload);
+
 
 // Contact Form (now sends to server)
 function initContactForm() {

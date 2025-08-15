@@ -57,7 +57,7 @@ function initResumeDownload() {
 
             const link = document.createElement('a');
             link.href = 'https://drive.google.com/uc?export=download&id=1z1DLBN0A7KcplRYIskdywiu2uV6jBxKo';
-            link.download = 'Subhajit_Roy_Resume.pdf';
+            link.download = 'Harsh_Patil_Resume.pdf';
 
             document.body.appendChild(link);
             link.click();

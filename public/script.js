@@ -56,7 +56,7 @@ function initResumeDownload() {
             e.preventDefault();
 
             const link = document.createElement('a');
-            link.href = 'https://drive.google.com/uc?export=download&id=1lnPTIIjFvkRS1ZigEkVv7eDXWRuttBtu';
+            link.href = 'https://drive.google.com/file/d/1lnPTIIjFvkRS1ZigEkVv7eDXWRuttBtu/view?usp=drivesdk';
             link.download = 'Harsh_Patil_Resume.pdf';
 
             document.body.appendChild(link);
